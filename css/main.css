@@ -8,50 +8,59 @@ html {
 }
 
 div {
-  padding: .5rem;
+  padding: .4rem;
   text-align: center;
+  margin: 5px;
 }
 
 .btn {
+  display: inline-block;
   text-decoration: none;
   font-size: 1.125rem;
-  border: 3px solid #333;
-  padding: .4em;
+  padding: .3em .75em;
   border-radius: 8px;
   background-color: #333;
   color: #fff;
-}
-
-div {
-  padding: .75em;
+  border: 3px solid;
 }
 
 .btn-subtle {
-  text-decoration: none;
-  font-size: 1.125rem;
-  border: 3px solid #ccc;
-  padding: .4em;
-  border-radius: 8px;
-  background-color:#ccc;
+  background-color: #ccc;
   color: #fff;
 }
 
 .btn-ghost {
-  text-decoration: none;
-  font-size: 1.125rem;
-  border: 3px solid #000;
-  padding: .4em;
-  border-radius: 8px;
   background-color: #fff;
   color: #000;
 }
 
 .btn-warning {
-  text-decoration: none;
-  font-size: 1.125rem;
-  border: 3px solid #f33;
-  padding: .4em;
-  border-radius: 8px;
   background-color: #f33;
   color: #fff;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
+  border: 3px solid #666;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+}
+
+.btn-warning:hover {
+  background-color: #933;
 }
